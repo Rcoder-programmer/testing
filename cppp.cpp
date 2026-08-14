@@ -1,9 +1,30 @@
 #include <iostream>
 using namespace std;
+int add(int a,int b)
+{
+    cout << "ADDITION:" << a+b << endl;
+}
+int sub(int a,int b)
+{
+    cout << "SUBTRACTION:" << a-b << endl;
+}
+int mul(int a,int b)
+{
+    cout << "MULTIPLICATION:" << a*b << endl;
+}
+int Div(int a,int b)
+{
+    cout << "DIVISION:" << a/b;
+}
 int main(){
-    int a=30;
-    int b=20;
-    cout<<"Total addition is: "<<a+b<<endl;
-    cout<<"Total subtraction is: "<<a-b<<endl;
-    
+    int a;
+    int b;
+    cout << "Enter Number 1:";
+    cin >> a;
+    cout << "Enter Number 2:";
+    cin >> b;
+    add(a,b);
+    sub(a,b);
+    mul(a,b);
+    Div(a,b);
 }
