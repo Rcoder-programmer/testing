@@ -12,10 +12,7 @@ int mul(int a,int b)
 {
     cout << "MULTIPLICATION:" << a*b << endl;
 }
-int Div(int a,int b)
-{
-    cout << "DIVISION:" << a/b;
-}
+
 int main(){
     int a;
     int b;
@@ -26,5 +23,5 @@ int main(){
     add(a,b);
     sub(a,b);
     mul(a,b);
-    Div(a,b);
+    
 }
